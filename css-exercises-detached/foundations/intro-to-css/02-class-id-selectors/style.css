@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+.pink {
+    background-color: #D986C7;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.big {
+    font-size: 24px;
+}
+
+/* to improve: use one class for setting font-size to 24px */
+
+
+#blue{
+    font-size: 36px;
+    color: #1448BA;
+}
+
+#green{
+    background-color: #57BA14;
+    font-weight: bold;
+    font-size: 24px;
+}
