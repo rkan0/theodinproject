@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.color1{
+    background-color: black;
+    color:white
+}
+
+.color2{
+    background-color: yellow;
+    color:black
+}
+
+.color1,.color2{
+    font-family: "Helvetica","Times New Roman", sans-serif;
+    font-size: 28px;
+}
+/* to improve: reuse the names of constituent groups to call the third (common) grouping*/
