@@ -1,0 +1,18 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.title, .content {
+    padding: 10px
+}
+
+.title {
+    background-color:cornflowerblue;
+}
+
+.content {
+    background-color: tan;
+}
