@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* 
+initially didn't import weight 100 so font-weight was not applied correctly. 
+*/
+
+body {
+    font-family: Roboto, sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #1f2937;
+    padding:20px 40px 60px 40px;
+   
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.logo {
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    margin:0px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.hero-left {
+    /* overrides the min width determined by the font size of .hero-main, but the text will be covered up by the grey box. otherwise, the grey box will overflow to the right. */
+    min-width: 50px;
+}
+
+.hero-main {
+    color:#f9faf8;
+    font-size: 48px; /* font size adds implicit min width */ 
+    font-weight: 900;
+}
+
+.hero-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-shrink:1;
+}
+
+.hero-right {
+    background-color: grey;
+    min-width:200px;
+    max-width: 500px;
+    flex-grow:1; /* allows it to grow up to 500px*/
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.hero-right-text {
+    text-wrap: wrap;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration : none;
+}
+
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: 0px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin:20px
+}
+
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding:20px
+}
+
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-text{
+    font-size: 14px;
+    color: grey;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 200px 30px 200px;
+
+}
+
+.quote-text {
+    font-size: 24px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+    text-align: justify;
+
+}
+
+.quote-source {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: right;
+    width: 100%;
+}
+
+
+.call {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border: 0px;
+    margin: 40px 40px 40px 40px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+.call-left1 {
+    font-weight: 800;
+}
+
+.call-left2 {   
+    font-size: 12px;
+}
+
+.button2 {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+    text-align: center;
+}
+
