@@ -6,7 +6,7 @@ const sumAll = function(one, two) {
     input.sort((x, y) => x-y)// order in ascending order
     let array = []
     for (let i = input[0]; i <= input[1]; i++) {// create array: starting from one, until two, i++, 
-        array.push(i)// concat i+1
+        array.push(i)
 
     } 
     sum = array.reduce(sumfunc)
